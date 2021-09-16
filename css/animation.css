@@ -1,0 +1,576 @@
+/* Slider Hero */
+
+.anime-slide {
+  max-width: 1440px;
+}
+
+.an-2, .an-3, .an-4, .an-6, .an-7 {
+  top: 0;
+  opacity: 0;
+}
+
+.an-2, .an-3, .an-4, .an-6, .an-7, .an-decription-2, .an-decription-3, .an-decription-4, .an-decription-5, .an-decription-6, .an-decription-7 {
+  animation-name: an-2;
+  animation-duration: 0.7s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.an-1 {
+  top: 0;
+}
+
+.an-2, .an-decription-2 {
+  animation-delay: 0.7s;
+}
+
+.an-3, .an-decription-3 {
+  animation-delay: 1.4s;
+}
+
+.an-4, .an-decription-4 {
+  animation-delay: 2.1s;
+}
+
+/* car */
+
+.an-5 {
+  top: 0;
+  left: -50%;
+  opacity: 1;
+  animation-name: an-5;
+  animation-delay: 2.8s;
+  animation-duration: 0.7s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.an-6, .an-decription-5, .an-decription-6, .an-decription-7 {
+  animation-delay: 3.5s;
+}
+
+.an-7 {
+  animation-delay: 4.2s;
+}
+
+/* Description blocks */
+
+.an-decription-8, .an-decription-9, .an-decription-10, .an-decription-11, .an-decription-12 {
+  opacity: 0;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.an-decription-8 {
+  animation-name: desc-8;
+  animation-delay: 2.8s;
+}
+
+.an-decription-9 {
+  animation-name: desc-9;
+  animation-delay: 2.1s;
+}
+
+.an-decription-10 {
+  animation-name: desc-10;
+  animation-delay: 1.4s;
+}
+
+.an-decription-11 {
+  animation-name: desc-11;
+  animation-delay: 0.7s;
+}
+
+.an-decription-12 {
+  animation-name: desc-12;
+  animation-delay: 7.7s;
+}
+
+@keyframes an-2 {
+  to {
+    opacity: 1;
+  }
+}
+
+/* car */
+
+@keyframes an-5 {
+  to {
+    transform: translateX(50%);
+  }
+}
+
+/* progress-bar */
+
+@keyframes pr-bar-active {
+  to {
+    width: 100%;
+  }
+}
+
+/* blocks */
+
+@keyframes desc-8 {
+  from {
+    width: 12%;
+    font-size: 30%;
+    left: 75%
+  }
+  to {
+    opacity: 1;
+    width: 26%;
+    font-size: 53%;
+    left: 72%;
+  }
+}
+
+/* blue */
+
+@keyframes desc-9 {
+  from {
+    width: 12%;
+    font-size: 30%;
+    left: 57%
+  }
+  to {
+    opacity: 1;
+    width: 26%;
+    font-size: 53%;
+    left: 52%;
+  }
+}
+
+/* green */
+
+@keyframes desc-10 {
+  from {
+    width: 12%;
+    font-size: 30%;
+    left: 35%
+  }
+  to {
+    opacity: 1;
+    width: 26%;
+    font-size: 53%;
+    left: 27%;
+  }
+}
+
+@keyframes desc-11 {
+  from {
+    width: 12%;
+    font-size: 30%;
+    left: 5%
+  }
+  to {
+    opacity: 1;
+    width: 26%;
+    font-size: 53%;
+    left: 1%;
+  }
+}
+
+@keyframes desc-12 {
+  from {
+    width: 5%;
+    font-size: 40%;
+    left: 49%
+  }
+  to {
+    opacity: 1;
+    width: 10%;
+    font-size: 80%;
+    left: 46%;
+  }
+}
+
+/* Description blocks */
+
+.an-decription-2, .an-decription-3, .an-decription-4, .an-decription-5, .an-decription-6, .an-decription-7, .an-decription-8 {
+  z-index: 1;
+  opacity: 0;
+}
+
+.an-decription-1 {
+  z-index: 1;
+  left: 56.3%;
+  top: 1.7%;
+  font-size: 2.5vw;
+}
+
+.an-decription-2 {
+  left: 52.5%;
+  top: 3.5%;
+  font-size: 1vw;
+}
+
+.an-decription-3 {
+  left: 7.5%;
+  top: 82.5%;
+  font-size: 2.5vw;
+}
+
+.an-decription-4 {
+  left: 66.3%;
+  top: 68.4%;
+  font-size: 1vw;
+}
+
+.an-decription-5 {
+  left: 2.7%;
+  top: 74.5%;
+  font-size: 1vw;
+}
+
+.an-decription-6 {
+  left: 13%;
+  top: 83.2%;
+  font-size: 1vw;
+}
+
+.an-decription-7 {
+  left: 2.7%;
+  top: 92.1%;
+  font-size: 1vw;
+}
+
+.an-decription-8 {
+  left: 36%;
+  top: 40%;
+  font-size: 0;
+  width: 0;
+  color: rgba(255, 94, 0, 0.733);
+  border: 2px solid rgba(255, 94, 0, 0.733);
+  border-radius: 5px;
+}
+
+/* blue */
+
+.an-decription-9 {
+  left: 39%;
+  top: 31%;
+  font-size: 0;
+  width: 0;
+  color: rgba(55, 0, 255, 0.733);
+  border: 2px solid rgba(55, 0, 255, 0.733);
+  border-radius: 5px;
+}
+
+.an-decription-10 {
+  left: 36%;
+  top: 40%;
+  font-size: 0;
+  width: 0;
+  color: rgba(55, 0, 255, 0.733);
+  border: 2px solid rgba(55, 0, 255, 0.733);
+  border-radius: 5px;
+}
+
+.an-decription-11 {
+  left: 1%;
+  top: 31%;
+  font-size: 53%;
+  width: 24%;
+  color: rgba(58, 58, 59, 0.733);
+  border: 2px solid rgba(58, 58, 59, 0.733);
+  border-radius: 5px;
+}
+
+.an-decription-12 {
+  left: 50%;
+  top: 88%;
+  font-size: 0;
+  width: 0;
+  color: rgba(58, 58, 59, 0.733);
+  border: 2px solid rgba(58, 58, 59, 0.733);
+  border-radius: 5px;
+}
+
+/* progress-bar */
+
+li.active .progress .progress-bar {
+  animation-name: pr-bar-active;
+  animation-delay: 0s;
+  animation-duration: 4.2s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+li .progress .progress-bar {
+  width: 0;
+}
+
+@media (min-width: 768px) {
+  /* Slider Hero */
+  .anime-slide {
+    max-width: 1440px;
+  }
+
+  .an-2, .an-3, .an-4, .an-6, .an-7 {
+    top: 0;
+    opacity: 0;
+  }
+
+  .an-2, .an-3, .an-4, .an-6, .an-7, .an-decription-2, .an-decription-3, .an-decription-4, .an-decription-5, .an-decription-6, .an-decription-7 {
+    animation-name: an-2;
+    animation-duration: 0.7s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+
+  .an-1 {
+    top: 0;
+  }
+
+  .an-2, .an-decription-2 {
+    animation-delay: 0.7s;
+  }
+
+  .an-3, .an-decription-3 {
+    animation-delay: 1.4s;
+  }
+
+  .an-4, .an-decription-4 {
+    animation-delay: 2.1s;
+  }
+
+  /* car */
+  .an-5 {
+    top: 0;
+    left: -50%;
+    opacity: 1;
+    animation-name: an-5;
+    animation-delay: 2.8s;
+    animation-duration: 0.7s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+
+  .an-6, .an-decription-5, .an-decription-6, .an-decription-7 {
+    animation-delay: 3.5s;
+  }
+
+  .an-7 {
+    animation-delay: 4.2s;
+  }
+
+  /* Description blocks */
+  .an-decription-8, .an-decription-9, .an-decription-10, .an-decription-11, .an-decription-12 {
+    opacity: 0;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+
+  .an-decription-8 {
+    animation-name: desc-8;
+    animation-delay: 4.9s;
+  }
+
+  .an-decription-9 {
+    animation-name: desc-9;
+    animation-delay: 5.6s;
+  }
+
+  .an-decription-10 {
+    animation-name: desc-9;
+    animation-delay: 6.3s;
+  }
+
+  .an-decription-11 {
+    animation-name: desc-11;
+    animation-delay: 7s;
+  }
+
+  .an-decription-12 {
+    animation-name: desc-12;
+    animation-delay: 7.7s;
+  }
+
+  @keyframes an-2 {
+    to {
+      opacity: 1;
+    }
+  }
+  /* car */
+  @keyframes an-5 {
+    to {
+      transform: translateX(50%);
+    }
+  }
+  /* progress-bar */
+  @keyframes pr-bar-active {
+    to {
+      width: 100%;
+    }
+  }
+  /* blocks */
+  @keyframes desc-8 {
+    from {
+      width: 5%;
+      font-size: 40%;
+      left: 40%
+    }
+    to {
+      opacity: 1;
+      width: 10%;
+      font-size: 80%;
+      left: 36%;
+    }
+  }
+  @keyframes desc-9 {
+    from {
+      width: 5%;
+      font-size: 40%;
+      left: 42%
+    }
+    to {
+      opacity: 1;
+      width: 10%;
+      font-size: 80%;
+      left: 39%;
+    }
+  }
+  @keyframes desc-11 {
+    from {
+      width: 5%;
+      font-size: 40%;
+      left: 45%
+    }
+    to {
+      opacity: 1;
+      width: 10%;
+      font-size: 80%;
+      left: 42%;
+    }
+  }
+  @keyframes desc-12 {
+    from {
+      width: 5%;
+      font-size: 40%;
+      left: 49%
+    }
+    to {
+      opacity: 1;
+      width: 10%;
+      font-size: 80%;
+      left: 46%;
+    }
+  }
+  /* Description blocks */
+  .an-decription-2, .an-decription-3, .an-decription-4, .an-decription-5, .an-decription-6, .an-decription-7, .an-decription-8 {
+    z-index: 1;
+    opacity: 0;
+  }
+
+  .an-decription-1 {
+    z-index: 1;
+    left: 21.3%;
+    top: 24.6%;
+    font-size: 1vw;
+  }
+
+  .an-decription-2 {
+    left: 52.5%;
+    top: 3.5%;
+    font-size: 1vw;
+  }
+
+  .an-decription-3 {
+    left: 70.3%;
+    top: 36.3%;
+    font-size: 1vw;
+  }
+
+  .an-decription-4 {
+    left: 66.3%;
+    top: 68.4%;
+    font-size: 1vw;
+  }
+
+  .an-decription-5 {
+    left: 2.7%;
+    top: 74.5%;
+    font-size: 1vw;
+  }
+
+  .an-decription-6 {
+    left: 13%;
+    top: 83.2%;
+    font-size: 1vw;
+  }
+
+  .an-decription-7 {
+    left: 2.7%;
+    top: 92.1%;
+    font-size: 1vw;
+  }
+
+  .an-decription-8 {
+    left: 36%;
+    top: 33%;
+    font-size: 0;
+    width: 0;
+    color: rgba(255, 94, 0, 0.733);
+    border: 2px solid rgba(255, 94, 0, 0.733);
+    border-radius: 5px;
+  }
+
+  .an-decription-9 {
+    left: 39%;
+    top: 43%;
+    font-size: 0;
+    width: 0;
+    color: rgba(55, 0, 255, 0.733);
+    border: 2px solid rgba(55, 0, 255, 0.733);
+    border-radius: 5px;
+  }
+
+  .an-decription-10 {
+    left: 36%;
+    top: 54%;
+    font-size: 0;
+    width: 0;
+    color: rgba(55, 0, 255, 0.733);
+    border: 2px solid rgba(55, 0, 255, 0.733);
+    border-radius: 5px;
+  }
+
+  .an-decription-11 {
+    left: 42%;
+    top: 64%;
+    font-size: 0;
+    width: 0;
+    color: rgba(58, 58, 59, 0.733);
+    border: 2px solid rgba(58, 58, 59, 0.733);
+    border-radius: 5px;
+  }
+
+  .an-decription-12 {
+    left: 50%;
+    top: 88%;
+    font-size: 0;
+    width: 0;
+    color: rgba(58, 58, 59, 0.733);
+    border: 2px solid rgba(58, 58, 59, 0.733);
+    border-radius: 5px;
+  }
+
+  /* progress-bar */
+  .progress {
+    border-radius: 0;
+  }
+
+  li.active .progress .progress-bar {
+    animation-name: pr-bar-active;
+    animation-delay: 0s;
+    animation-duration: 4.2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+
+  li .progress .progress-bar {
+    width: 0;
+  }
+}

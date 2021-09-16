@@ -1,0 +1,39 @@
+@media (min-width: 768px) {
+  .anime-slide {
+    font-size: 7px;
+  }
+
+  .sections {
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .anime-slide {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .anime-slide {
+    font-size: 12px;
+  }
+
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .anime-slide {
+    font-size: 16px;
+  }
+
+  .font-max {
+    font-size: 90%;
+  }
+
+  .sections {
+    padding-bottom: 192px;
+  }
+}
